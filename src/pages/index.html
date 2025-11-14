@@ -1,0 +1,1657 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="../assets/images/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../styles/all.min.css" />
+    <link href="../styles/output.css" rel="stylesheet" />
+    <title>Home</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header
+      id="header"
+      class="py-5 md:py-10 px-5 md:px-5 lg:px-[120px] flex items-center justify-between relative"
+    >
+      <div>
+        <img
+          src="../assets/images/logo.png"
+          class="w-[103px] h-[58px]"
+          alt="logo"
+        />
+      </div>
+      <div class="hidden md:flex items-center">
+        <nav class="md:px-5 lg:px-10">
+          <ul class="flex items-center md:gap-5 lg:gap-[50px] xl:gap-[60px]">
+            <li>
+              <a
+                class="font-bold text-[20px] leading-[100%] tracking-[0%] text-[#010F36] hover:text-[#FF8C00] duration-300 capitalize"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                class="font-bold text-[20px] leading-[100%] tracking-[0%] text-[#010F36] hover:text-[#FF8C00] duration-300 capitalize"
+                href="#"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                class="font-bold text-[20px] leading-[100%] tracking-[0%] text-[#010F36] hover:text-[#FF8C00] duration-300 capitalize"
+                href="#"
+                >Our Services</a
+              >
+            </li>
+            <li>
+              <a
+                class="font-bold text-[20px] leading-[100%] tracking-[0%] text-[#010F36] hover:text-[#FF8C00] duration-300 capitalize"
+                href="#"
+                >Our Team</a
+              >
+            </li>
+            <li>
+              <a
+                class="font-bold text-[20px] leading-[100%] tracking-[0%] text-[#010F36] hover:text-[#FF8C00] duration-300 capitalize"
+                href="#"
+                >Testimonial</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="flex items-center gap-2">
+          <button
+            class="py-3 px-4 bg-[#FF8C00] capitalize rounded-[10px] text-white cursor-pointer font-semibold text-[20px] leading-[100%] tracking-[0%] hover:bg-[#FF8C00]/20 hover:text-[#FF8C00] duration-300"
+          >
+            Request Quote
+          </button>
+          <div
+            class="cursor-pointer py-1 px-2 bg-[#FF8C0033] rounded-[20px] flex items-center gap-2 w-fit text-[14px] font-normal uppercase leading-[100%] tracking-[0%]"
+          >
+            <span class="bg-[#FF8C00] py-1 px-2 rounded-[20px] text-white"
+              >EN</span
+            >
+            <span class="text-[#FF8C00]">AR</span>
+          </div>
+        </div>
+      </div>
+      <div class="md:hidden">
+        <i
+          id="menu-toggle"
+          class="fa-solid fa-bars hover:text-[#FF8C00] cursor-pointer duration-200"
+        ></i>
+      </div>
+      <!-- mobile responsive menu bar -->
+      <div
+        id="mobile-menu"
+        class="flex-col items-center absolute left-0 bg-white z-20 w-full top-20 py-1 md:hidden hidden"
+      >
+        <nav class="md:px-5 lg:px-10">
+          <ul class="flex items-center flex-col gap-4">
+            <li>
+              <a
+                class="font-bold text-[20px] leading-[100%] tracking-[0%] text-[#010F36] hover:text-[#FF8C00] duration-300 capitalize"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                class="font-bold text-[20px] leading-[100%] tracking-[0%] text-[#010F36] hover:text-[#FF8C00] duration-300 capitalize"
+                href="#"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                class="font-bold text-[20px] leading-[100%] tracking-[0%] text-[#010F36] hover:text-[#FF8C00] duration-300 capitalize"
+                href="#"
+                >Our Services</a
+              >
+            </li>
+            <li>
+              <a
+                class="font-bold text-[20px] leading-[100%] tracking-[0%] text-[#010F36] hover:text-[#FF8C00] duration-300 capitalize"
+                href="#"
+                >Our Team</a
+              >
+            </li>
+            <li>
+              <a
+                class="font-bold text-[20px] leading-[100%] tracking-[0%] text-[#010F36] hover:text-[#FF8C00] duration-300 capitalize"
+                href="#"
+                >Testimonial</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="flex items-center flex-col my-1 gap-2">
+          <button
+            class="py-3 px-4 bg-[#FF8C00] capitalize rounded-[10px] text-white cursor-pointer font-semibold text-[20px] leading-[100%] tracking-[0%] hover:bg-[#FF8C00]/20 hover:text-[#FF8C00] duration-300"
+          >
+            Request Quote
+          </button>
+          <div
+            class="cursor-pointer py-1 px-2 bg-[#FF8C0033] rounded-[20px] flex items-center gap-2 w-fit text-[14px] font-normal uppercase leading-[100%] tracking-[0%]"
+          >
+            <span class="bg-[#FF8C00] py-1 px-2 rounded-[20px] text-white"
+              >EN</span
+            >
+            <span class="text-[#FF8C00]">AR</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="app" class="relative">
+      <section id="hero" class="md:px-11 overflow-hidden">
+        <div
+          class="h-[745px] rounded-[30px] hero-bg bg-cover bg-center flex items-center justify-center"
+        >
+          <div
+            class="overlay bg-[#010F364D] absolute inset-0 h-[745px] left-10 md:left-[70px] top-[-17px] rounded-[30px]"
+          ></div>
+          <div
+            class="content relative mx-auto text-center flex flex-col items-center gap-[60px]"
+          >
+            <h1
+              class="capitalize font-bold text-[48px] text-center leading-[100%] tracking-[0%] text-[#FFFFFF]"
+            >
+              From Vision to <span class="text-[#FF8C00]">Code</span> , We Build
+              What Matters
+            </h1>
+            <div class="logos flex flex-col md:flex-row items-center gap-6">
+              <img
+                src="../assets/images/hala.png"
+                class="h-[147px] w-[250px] sm:w-[430px]"
+                alt="logo"
+              />
+              <img
+                src="../assets/images/team.png"
+                class="h-[147px] w-[250px] sm:w-[430px]"
+                alt="logo"
+              />
+            </div>
+            <div class="btns flex items-center gap-10">
+              <button
+                class="py-3 px-4 bg-[#FF8C00] capitalize rounded-[10px] text-white cursor-pointer font-semibold text-[20px] leading-[100%] tracking-[0%] hover:bg-[#FF8C00]/20 hover:text-[#FF8C00] duration-300"
+              >
+                Request Quote
+              </button>
+              <button
+                class="py-3 px-4 bg-transparent border border-[#FFFFFF] capitalize rounded-[10px] text-white cursor-pointer font-semibold text-[20px] leading-[100%] tracking-[0%] hover:bg-[#FF8C00]/20 hover:text-[#FF8C00] duration-300"
+              >
+                Contact Us
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <img
+        src="../assets/images/arrowDown.png"
+        class="absolute right-5 md:right-[220px]"
+        alt="arrowDown"
+      />
+      <section id="about" class="px-3 md:px-[120px] py-24">
+        <div class="flex items-center gap-1 md:gap-6 flex-col md:flex-row">
+          <div class="md:h-[633px] w-full md:w-1/2 shrink-0">
+            <img src="../assets/images/about.png" alt="about_pic" />
+          </div>
+          <div class="info flex flex-col gap-5 md:gap-10 w-full md:w-1/2">
+            <div class="flex items-center gap-4">
+              <img
+                src="../assets/images/command.png"
+                class="w-8 h-8"
+                alt="command"
+              />
+              <h3
+                class="font-medium capitalize text-[28px] leading-[100%] tracking-normal text-[#010F36]"
+              >
+                About Us
+              </h3>
+            </div>
+            <h5
+              class="text-[48px] font-semibold leading-[100%] tracking-normal text-[#010F36]"
+            >
+              Transforming Idea <br />
+              Into
+              <span class="text-[#FF8C00]">Digital Reality</span>
+            </h5>
+            <p
+              class="text-[#64748B] text-[24px] font-normal leading-[100%] tracking-normal"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam...
+            </p>
+            <div class="cards flex items-center gap-3 md:gap-6">
+              <div
+                class="card bg-[#FF8C004D] w-[180px] h-[120px] text-[#FF8C00] rounded-[20px] flex items-center justify-center gap-2 flex-col hover:bg-[#FF8C00] hover:text-white duration-200"
+              >
+                <span
+                  class="font-bold text-[28px] text-center leading-[100%] tracking-normal"
+                  >+ 10</span
+                >
+                <p class="text-sm font-semibold leading-[100%] tracking-normal">
+                  Team Member
+                </p>
+              </div>
+              <div
+                class="card bg-[#FF8C00] w-[180px] h-[120px] text-white rounded-[20px] flex items-center justify-center gap-2 flex-col hover:bg-[#FF8C004D] hover:text-[#FF8C00] duration-200"
+              >
+                <span
+                  class="font-bold text-[28px] text-center leading-[100%] tracking-normal"
+                  >+ 100</span
+                >
+                <p class="text-sm font-semibold leading-[100%] tracking-normal">
+                  Happy clients
+                </p>
+              </div>
+              <div
+                class="card bg-[#FF8C00] w-[180px] h-[120px] text-white rounded-[20px] flex items-center justify-center gap-2 flex-col hover:bg-[#FF8C004D] hover:text-[#FF8C00] duration-200"
+              >
+                <span
+                  class="font-bold text-[28px] text-center leading-[100%] tracking-normal"
+                  >+ 20</span
+                >
+                <p class="text-sm font-semibold leading-[100%] tracking-normal">
+                  Projects
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="services"
+        class="px-3 md:px-[120px] bg-[#FF8C004D] py-20 relative"
+      >
+        <img
+          src="../assets/images/dots.png"
+          alt="dots"
+          class="absolute -top-[60px] -z-10"
+        />
+
+        <div class="overflow-hidden">
+          <div class="flex flex-col gap-6">
+            <div class="flex items-center gap-4 justify-center">
+              <img
+                src="../assets/images/command.png"
+                class="w-8 h-8"
+                alt="command"
+              />
+              <h3
+                class="font-medium capitalize text-[28px] leading-[100%] tracking-normal text-black"
+              >
+                Explore Our Service
+              </h3>
+            </div>
+            <h2
+              class="text-[#64748B] font-semibold text-[36px] leading-[100%] tracking-normal text-center"
+            >
+              we Offer a Wide Variety of IT Services
+            </h2>
+          </div>
+          <div class="overflow-hidden">
+            <div
+              class="services mb-5 mt-20 md:my-32 flex items-center gap-16 md:gap-6 flex-wrap md:flex-nowrap justify-center"
+            >
+              <div class="slider w-full relative">
+                <div
+                  id="slides"
+                  class="flex transition-all duration-500 ease-in-out gap-16 md:gap-6"
+                  style="width: max-content"
+                >
+                  <div
+                    class="serviceCard overflow-visible rounded-[20px] p-10 bg-white w-[384px] relative flex flex-col gap-4 group hover:bg-[#FF8C00]/50 duration-200"
+                  >
+                    <div
+                      class="w-[90px] h-[90px] bg-[#FF8C00] group-hover:bg-[#FF8C00]/80 rounded-full flex items-center justify-center absolute -top-10"
+                    >
+                      <img
+                        src="../assets/images/global.png"
+                        class="w-10 h-10"
+                        alt="global"
+                      />
+                    </div>
+                    <h4
+                      class="text-[#FF8C00] group-hover:text-white font-bold text-[24px] leading-[100%] tracking-normal mt-7"
+                    >
+                      Web Design
+                    </h4>
+                    <p
+                      class="text-[#010F36] group-hover:text-white text-[16px] leading-[100%] tracking-normal"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                    <div class="flex items-center gap-8">
+                      <div class="flex items-center gap-2">
+                        <img
+                          src="../assets/images/Time Circle.png"
+                          alt="Time Circle"
+                          class="h-5 w-5"
+                        />
+                        <span
+                          class="text-[#64748B] text-[12px] leading-[100%] tracking-normal font-medium"
+                          >20 day</span
+                        >
+                      </div>
+                      <div class="flex items-center gap-2">
+                        <img
+                          src="../assets/images/Ticket.png"
+                          alt="Ticket"
+                          class="h-5 w-5"
+                        />
+                        <span
+                          class="text-[#64748B] text-[12px] leading-[100%] tracking-normal font-medium"
+                          >200$</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="serviceCard rounded-[20px] p-10 bg-white w-[384px] relative flex flex-col gap-4 group hover:bg-[#FF8C00]/50 duration-200"
+                  >
+                    <div
+                      class="w-[90px] h-[90px] bg-[#FF8C00] group-hover:bg-[#FF8C00]/80 rounded-full flex items-center justify-center absolute -top-10"
+                    >
+                      <img
+                        src="../assets/images/mobile.png"
+                        class="w-10 h-10"
+                        alt="mobile"
+                      />
+                    </div>
+                    <h4
+                      class="text-[#FF8C00] group-hover:text-white font-bold text-[24px] leading-[100%] tracking-normal mt-7"
+                    >
+                      Mobile app Development
+                    </h4>
+                    <p
+                      class="text-[#010F36] group-hover:text-white text-[16px] leading-[100%] tracking-normal"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                    <div class="flex items-center gap-8">
+                      <div class="flex items-center gap-2">
+                        <img
+                          src="../assets/images/Time Circle.png"
+                          alt="Time Circle"
+                          class="h-5 w-5"
+                        />
+                        <span
+                          class="text-[#64748B] text-[12px] leading-[100%] tracking-normal font-medium"
+                          >20 day</span
+                        >
+                      </div>
+                      <div class="flex items-center gap-2">
+                        <img
+                          src="../assets/images/Ticket.png"
+                          alt="Ticket"
+                          class="h-5 w-5"
+                        />
+                        <span
+                          class="text-[#64748B] text-[12px] leading-[100%] tracking-normal font-medium"
+                          >200$</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="serviceCard rounded-[20px] p-10 bg-white w-[384px] relative flex flex-col gap-4 group hover:bg-[#FF8C00]/50 duration-200"
+                  >
+                    <div
+                      class="w-[90px] h-[90px] bg-[#FF8C00] group-hover:bg-[#FF8C00]/80 rounded-full flex items-center justify-center absolute -top-10"
+                    >
+                      <img
+                        src="../assets/images/monitor.png"
+                        class="w-10 h-10"
+                        alt="monitor"
+                      />
+                    </div>
+                    <h4
+                      class="text-[#FF8C00] group-hover:text-white font-bold text-[24px] leading-[100%] tracking-normal mt-7"
+                    >
+                      System Development
+                    </h4>
+                    <p
+                      class="text-[#010F36] group-hover:text-white text-[16px] leading-[100%] tracking-normal"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                    <div class="flex items-center gap-8">
+                      <div class="flex items-center gap-2">
+                        <img
+                          src="../assets/images/Time Circle.png"
+                          alt="Time Circle"
+                          class="h-5 w-5"
+                        />
+                        <span
+                          class="text-[#64748B] text-[12px] leading-[100%] tracking-normal font-medium"
+                          >20 day</span
+                        >
+                      </div>
+                      <div class="flex items-center gap-2">
+                        <img
+                          src="../assets/images/Ticket.png"
+                          alt="Ticket"
+                          class="h-5 w-5"
+                        />
+                        <span
+                          class="text-[#64748B] text-[12px] leading-[100%] tracking-normal font-medium"
+                          >200$</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="serviceCard rounded-[20px] p-10 bg-white w-[384px] relative flex flex-col gap-4 group hover:bg-[#FF8C00]/50 duration-200"
+                  >
+                    <div
+                      class="w-[90px] h-[90px] bg-[#FF8C00] group-hover:bg-[#FF8C00]/80 rounded-full flex items-center justify-center absolute -top-10"
+                    >
+                      <img
+                        src="../assets/images/global.png"
+                        class="w-10 h-10"
+                        alt="global"
+                      />
+                    </div>
+                    <h4
+                      class="text-[#FF8C00] group-hover:text-white font-bold text-[24px] leading-[100%] tracking-normal mt-7"
+                    >
+                      Web Design
+                    </h4>
+                    <p
+                      class="text-[#010F36] group-hover:text-white text-[16px] leading-[100%] tracking-normal"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                    <div class="flex items-center gap-8">
+                      <div class="flex items-center gap-2">
+                        <img
+                          src="../assets/images/Time Circle.png"
+                          alt="Time Circle"
+                          class="h-5 w-5"
+                        />
+                        <span
+                          class="text-[#64748B] text-[12px] leading-[100%] tracking-normal font-medium"
+                          >20 day</span
+                        >
+                      </div>
+                      <div class="flex items-center gap-2">
+                        <img
+                          src="../assets/images/Ticket.png"
+                          alt="Ticket"
+                          class="h-5 w-5"
+                        />
+                        <span
+                          class="text-[#64748B] text-[12px] leading-[100%] tracking-normal font-medium"
+                          >200$</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="serviceCard rounded-[20px] p-10 bg-white w-[384px] relative flex flex-col gap-4 group hover:bg-[#FF8C00]/50 duration-200"
+                  >
+                    <div
+                      class="w-[90px] h-[90px] bg-[#FF8C00] group-hover:bg-[#FF8C00]/80 rounded-full flex items-center justify-center absolute -top-10"
+                    >
+                      <img
+                        src="../assets/images/mobile.png"
+                        class="w-10 h-10"
+                        alt="mobile"
+                      />
+                    </div>
+                    <h4
+                      class="text-[#FF8C00] group-hover:text-white font-bold text-[24px] leading-[100%] tracking-normal mt-7"
+                    >
+                      Mobile app Development
+                    </h4>
+                    <p
+                      class="text-[#010F36] group-hover:text-white text-[16px] leading-[100%] tracking-normal"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                    <div class="flex items-center gap-8">
+                      <div class="flex items-center gap-2">
+                        <img
+                          src="../assets/images/Time Circle.png"
+                          alt="Time Circle"
+                          class="h-5 w-5"
+                        />
+                        <span
+                          class="text-[#64748B] text-[12px] leading-[100%] tracking-normal font-medium"
+                          >20 day</span
+                        >
+                      </div>
+                      <div class="flex items-center gap-2">
+                        <img
+                          src="../assets/images/Ticket.png"
+                          alt="Ticket"
+                          class="h-5 w-5"
+                        />
+                        <span
+                          class="text-[#64748B] text-[12px] leading-[100%] tracking-normal font-medium"
+                          >200$</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="serviceCard rounded-[20px] p-10 bg-white w-[384px] relative flex flex-col gap-4 group hover:bg-[#FF8C00]/50 duration-200"
+                  >
+                    <div
+                      class="w-[90px] h-[90px] bg-[#FF8C00] group-hover:bg-[#FF8C00]/80 rounded-full flex items-center justify-center absolute -top-10"
+                    >
+                      <img
+                        src="../assets/images/monitor.png"
+                        class="w-10 h-10"
+                        alt="monitor"
+                      />
+                    </div>
+                    <h4
+                      class="text-[#FF8C00] group-hover:text-white font-bold text-[24px] leading-[100%] tracking-normal mt-7"
+                    >
+                      System Development
+                    </h4>
+                    <p
+                      class="text-[#010F36] group-hover:text-white text-[16px] leading-[100%] tracking-normal"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                    <div class="flex items-center gap-8">
+                      <div class="flex items-center gap-2">
+                        <img
+                          src="../assets/images/Time Circle.png"
+                          alt="Time Circle"
+                          class="h-5 w-5"
+                        />
+                        <span
+                          class="text-[#64748B] text-[12px] leading-[100%] tracking-normal font-medium"
+                          >20 day</span
+                        >
+                      </div>
+                      <div class="flex items-center gap-2">
+                        <img
+                          src="../assets/images/Ticket.png"
+                          alt="Ticket"
+                          class="h-5 w-5"
+                        />
+                        <span
+                          class="text-[#64748B] text-[12px] leading-[100%] tracking-normal font-medium"
+                          >200$</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center justify-between mb-[38px] mt-0">
+            <div class="dots flex items-center justify-center gap-4 mx-auto">
+              <span
+                class="rounded-[10px] h-2.5 w-[50px] bg-[#FF8C00] block cursor-pointer"
+              ></span>
+              <span
+                class="rounded-[10px] h-2.5 w-2.5 bg-white block cursor-pointer"
+              ></span>
+              <span
+                class="rounded-[10px] h-2.5 w-2.5 bg-white block cursor-pointer"
+              ></span>
+            </div>
+
+            <div class="arrows flex items-center justify-center gap-4">
+              <span
+                class="rounded-[10px] bg-[#FF8C00] w-10 h-10 flex items-center justify-center cursor-pointer hover:bg-black duration-300"
+              >
+                <i class="fa-solid fa-arrow-left text-white"></i>
+              </span>
+              <span
+                class="rounded-[10px] bg-[#FF8C00] w-10 h-10 flex items-center justify-center cursor-pointer hover:bg-black duration-300"
+              >
+                <i class="fa-solid fa-arrow-right text-white"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="gallery"
+        class="px-3 md:px-[120px] -mt-[90px] relative bg-[linear-gradient(to_bottom,transparent_30%,#010F36_70%)] md:bg-[linear-gradient(to_bottom,transparent_60%,#010F36_40%)]"
+      >
+        <div class="">
+          <div
+            class="head flex flex-col md:flex-row items-center justify-between"
+          >
+            <h6
+              class="font-bold text-[40px] leading-[100%] tracking-normal text-[#64748B] capitalize shadow-[10px_4px_25.4px_0_rgba(0, 0, 0, 0.25)] z-10"
+            >
+              Gallery
+            </h6>
+            <img
+              src="../assets/images/arrowRight.png"
+              alt="arrowRight "
+              class="absolute left-0 top-28 hidden md:block"
+            />
+            <div
+              class="tabs bg-white z-10 rounded-tl-[200px] overflow-visible md:-mr-[120px] rounded-bl-[200px] shadow-[0_4px_50px_-8px_rgba(0,0,0,0.1)] h-[100px] md:h-[170px] w-full md:w-[80%] flex flex-wrap items-center justify-evenly"
+            >
+              <button
+                class="text-[#FF8C00] font-bold text-[36px] leading-[100%] tracking-normal cursor-pointer"
+              >
+                All
+              </button>
+              <button
+                class="hover:text-[#FF8C00] text-[#010F36] duration-300 font-normal text-[36px] leading-[100%] tracking-normal cursor-pointer"
+              >
+                App
+              </button>
+              <button
+                class="hover:text-[#FF8C00] text-[#010F36] duration-300 font-normal text-[36px] leading-[100%] tracking-normal cursor-pointer"
+              >
+                web
+              </button>
+              <button
+                class="hover:text-[#FF8C00] text-[#010F36] duration-300 font-normal text-[36px] leading-[100%] tracking-normal cursor-pointer"
+              >
+                Software
+              </button>
+            </div>
+          </div>
+          <div
+            class="galleries grid grid-cols-1 sm:grid-cols-2 md:grid-cols-[1fr_300px_1fr] lg:grid-cols-[1fr_510px_1fr] gap-7 mt-20 py-4 md:place-items-center"
+          >
+            <div
+              class="card w-full md:max-w-[306px] flex flex-col gap-4 group hover:-translate-y-5 duration-200"
+            >
+              <div
+                class="h-[250px] lg:h-[401px] rounded-[20px] relative duration-200"
+              >
+                <img
+                  src="../assets/images/app.jpg"
+                  class="w-full h-full object-cover rounded-[20px]"
+                  alt="app"
+                />
+                <span
+                  class="bg-[#00000080] absolute inset-0 rounded-[20px] group-hover:hidden"
+                ></span>
+              </div>
+              <div class="deatails flex flex-col gap-2">
+                <h5
+                  class="text-[#64748B] capitalize font-bold text-[36px] leading-[100%] tracking-normal group-hover:text-white duration-100"
+                >
+                  App
+                </h5>
+                <p
+                  class="text-[#64748B80] text-[16px] font-normal leading-[100%] tracking-normal group-hover:text-white duration-100"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor
+                </p>
+              </div>
+            </div>
+            <div
+              class="card w-full md:max-w-[510px] flex flex-col gap-4 group hover:-translate-y-5 duration-200"
+            >
+              <div
+                class="h-[250px] lg:h-[523px] rounded-[20px] relative duration-200 shadow-[0_4px_50px_4_rgba(255, 255, 255, 0.25)]"
+              >
+                <img
+                  src="../assets/images/website.jpg"
+                  class="w-full h-full object-cover rounded-[20px]"
+                  alt="website"
+                />
+                <!-- <span
+                  class="bg-[#00000080] absolute inset-0 rounded-[20px] group-hover:hidden"
+                ></span> -->
+              </div>
+              <div class="deatails flex flex-col gap-2 text-white">
+                <h5
+                  class="capitalize font-bold text-[36px] leading-[100%] tracking-normal group-hover:text-white duration-100"
+                >
+                  website
+                </h5>
+                <p
+                  class="text-[16px] font-normal leading-[100%] tracking-normal group-hover:text-white duration-100"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor
+                </p>
+                <div class="flex items-center gap-2">
+                  <span
+                    class="capitalize text-white border border-white py-2.5 px-4 rounded-[10px] text-[20px] font-medium leading-[100%] tracking-normal"
+                    >html</span
+                  >
+                  <span
+                    class="capitalize text-white border border-white py-2.5 px-4 rounded-[10px] text-[20px] font-medium leading-[100%] tracking-normal"
+                    >css</span
+                  >
+                  <span
+                    class="capitalize text-white border border-white py-2.5 px-4 rounded-[10px] text-[20px] font-medium leading-[100%] tracking-normal"
+                    >js</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="card w-full md:max-w-[306px] flex flex-col gap-4 group hover:-translate-y-5 duration-200"
+            >
+              <div
+                class="h-[250px] lg:h-[401px] rounded-[20px] relative duration-200"
+              >
+                <img
+                  src="../assets/images/software.jpg"
+                  class="w-full h-full object-cover rounded-[20px]"
+                  alt="software"
+                />
+                <span
+                  class="bg-[#00000080] absolute inset-0 rounded-[20px] group-hover:hidden"
+                ></span>
+              </div>
+              <div class="deatails flex flex-col gap-2">
+                <h5
+                  class="text-[#64748B] capitalize font-bold text-[36px] leading-[100%] tracking-normal group-hover:text-white duration-100"
+                >
+                  Software
+                </h5>
+                <p
+                  class="text-[#64748B80] text-[16px] font-normal leading-[100%] tracking-normal group-hover:text-white duration-100"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="plan" class="px-3 md:px-[120px] relative py-5 md:py-16">
+        <img
+          src="../assets/images/dots.png"
+          alt="dots"
+          class="absolute -top-[60px] z-10 right-[120px] hidden sm:block"
+        />
+        <div>
+          <div class="flex flex-col gap-6">
+            <div class="flex items-center gap-4 justify-center">
+              <img
+                src="../assets/images/command.png"
+                class="w-8 h-8"
+                alt="command"
+              />
+              <h3
+                class="font-medium capitalize text-[28px] leading-[100%] tracking-normal text-[#010F36]"
+              >
+                Explore Our Service
+              </h3>
+            </div>
+            <h2
+              class="text-[#64748B] font-semibold text-[36px] leading-[100%] tracking-normal text-center"
+            >
+              Flexible Pricing Plans for Every Service
+            </h2>
+          </div>
+          <div
+            class="plans grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-20"
+          >
+            <div
+              class="cardPlan flex flex-col gap-6 group border border-[#FF8C00] rounded-[20px] p-8 hover:bg-[#010F36B2] hover:text-white duration-200"
+            >
+              <h3
+                class="capitalize text-[#FF8C00] text-[28px] font-medium leading-[100%] tracking-normal"
+              >
+                All In One
+              </h3>
+              <div class="price flex flex-col gap-2">
+                <h6
+                  class="text-[#010F36] capitalize text-[20px] font-medium leading-[100%] tracking-normal group-hover:text-white"
+                >
+                  Start From
+                </h6>
+                <span
+                  class="text-[48px] font-bold text-[#010F36] leading-[100%] tracking-normal group-hover:text-white"
+                  >$1,800</span
+                >
+              </div>
+              <p
+                class="text-[20px] font-normal my-2 leading-[100%] tracking-normal text-[#64748B] group-hover:text-white"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor
+              </p>
+              <ul class="flex flex-col gap-4">
+                <li
+                  class="flex items-center gap-4 text-[#010F36] text-[20px] font-normal leading-[100%] tracking-normal group-hover:text-white"
+                >
+                  <span
+                    class="w-2.5 h-2.5 bg-[#010F36] block rounded-full group-hover:bg-white"
+                  ></span>
+                  Lorem ipsum dolor
+                </li>
+                <li
+                  class="flex items-center gap-4 text-[#010F36] text-[20px] font-normal leading-[100%] tracking-normal group-hover:text-white"
+                >
+                  <span
+                    class="w-2.5 h-2.5 bg-[#010F36] block rounded-full group-hover:bg-white"
+                  ></span>
+                  Lorem ipsum dolor
+                </li>
+                <li
+                  class="flex items-center gap-4 text-[#010F36] text-[20px] font-normal leading-[100%] tracking-normal group-hover:text-white"
+                >
+                  <span
+                    class="w-2.5 h-2.5 bg-[#010F36] block rounded-full group-hover:bg-white"
+                  ></span>
+                  Lorem ipsum dolor
+                </li>
+                <li
+                  class="flex items-center gap-4 text-[#010F36] text-[20px] font-normal leading-[100%] tracking-normal group-hover:text-white"
+                >
+                  <span
+                    class="w-2.5 h-2.5 bg-[#010F36] block rounded-full group-hover:bg-white"
+                  ></span>
+                  Lorem ipsum dolor
+                </li>
+                <li
+                  class="flex items-center gap-4 text-[#010F36] text-[20px] font-normal leading-[100%] tracking-normal group-hover:text-white"
+                >
+                  <span
+                    class="w-2.5 h-2.5 bg-[#010F36] block rounded-full group-hover:bg-white"
+                  ></span>
+                  Lorem ipsum dolor
+                </li>
+              </ul>
+              <button
+                class="border border-[#FF8C00] py-6 px-[60px] rounded-[10px] font-semibold text-[20px] leading-[100%] tracking-normal text-[#FF8C00] cursor-pointer w-full hover:bg-[#FF8C00] hover:text-white duration-200"
+              >
+                Get Started
+              </button>
+            </div>
+            <div
+              class="cardPlan md:-translate-y-5 flex flex-col gap-6 rounded-[20px] p-8 bg-[#010F36B2] duration-200 shadow-[4px_4px_50px_0_rgba(0, 0, 0, 0.1)]"
+            >
+              <h3
+                class="capitalize text-[#FF8C00] text-[28px] font-medium leading-[100%] tracking-normal"
+              >
+                Specefic
+              </h3>
+              <div class="price flex flex-col gap-2">
+                <h6
+                  class="text-white capitalize text-[20px] font-medium leading-[100%] tracking-normal group-hover:text-[#010F36]"
+                >
+                  Start From
+                </h6>
+                <span
+                  class="text-[48px] font-bold text-white leading-[100%] tracking-normal group-hover:text-[#010F36]"
+                  >$600</span
+                >
+              </div>
+              <p
+                class="text-[20px] font-normal my-2 leading-[100%] tracking-normal group-hover:text-[#64748B] text-white"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor
+              </p>
+              <ul class="flex flex-col gap-4">
+                <li
+                  class="flex items-center gap-4 group-hover:text-[#010F36] text-[20px] font-normal leading-[100%] tracking-normal text-white"
+                >
+                  <span
+                    class="w-2.5 h-2.5 group-hover:bg-[#010F36] block rounded-full bg-white"
+                  ></span>
+                  Lorem ipsum dolor
+                </li>
+                <li
+                  class="flex items-center gap-4 group-hover:text-[#010F36] text-[20px] font-normal leading-[100%] tracking-normal text-white"
+                >
+                  <span
+                    class="w-2.5 h-2.5 group-hover:bg-[#010F36] block rounded-full bg-white"
+                  ></span>
+                  Lorem ipsum dolor
+                </li>
+                <li
+                  class="flex items-center gap-4 group-hover:text-[#010F36] text-[20px] font-normal leading-[100%] tracking-normal text-white"
+                >
+                  <span
+                    class="w-2.5 h-2.5 group-hover:bg-[#010F36] block rounded-full bg-white"
+                  ></span>
+                  Lorem ipsum dolor
+                </li>
+                <li
+                  class="flex items-center gap-4 group-hover:text-[#010F36] text-[20px] font-normal leading-[100%] tracking-normal text-white"
+                >
+                  <span
+                    class="w-2.5 h-2.5 group-hover:bg-[#010F36] block rounded-full bg-white"
+                  ></span>
+                  Lorem ipsum dolor
+                </li>
+                <li
+                  class="flex items-center gap-4 group-hover:text-[#010F36] text-[20px] font-normal leading-[100%] tracking-normal text-white"
+                >
+                  <span
+                    class="w-2.5 h-2.5 group-hover:bg-[#010F36] block rounded-full bg-white"
+                  ></span>
+                  Lorem ipsum dolor
+                </li>
+              </ul>
+              <button
+                class="bg-[#FF8C00] bord py-6 px-[60px] rounded-[10px] font-semibold border-[#FF8C00] hover:bg-transparent hover:text-[#FF8C00] hover:border duration-200 text-[20px] leading-[100%] tracking-normal text-white cursor-pointer w-full"
+              >
+                Get Started
+              </button>
+            </div>
+            <div
+              class="cardPlan flex flex-col gap-6 group border border-[#FF8C00] rounded-[20px] p-8 hover:bg-[#010F36B2] hover:text-white duration-200"
+            >
+              <h3
+                class="capitalize text-[#FF8C00] text-[28px] font-medium leading-[100%] tracking-normal"
+              >
+                All In One
+              </h3>
+              <div class="price flex flex-col gap-2">
+                <h6
+                  class="text-[#010F36] capitalize text-[20px] font-medium leading-[100%] tracking-normal group-hover:text-white"
+                >
+                  Start From
+                </h6>
+                <span
+                  class="text-[48px] font-bold text-[#010F36] leading-[100%] tracking-normal group-hover:text-white"
+                  >$300</span
+                >
+              </div>
+              <p
+                class="text-[20px] font-normal my-2 leading-[100%] tracking-normal text-[#64748B] group-hover:text-white"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor
+              </p>
+              <ul class="flex flex-col gap-4">
+                <li
+                  class="flex items-center gap-4 text-[#010F36] text-[20px] font-normal leading-[100%] tracking-normal group-hover:text-white"
+                >
+                  <span
+                    class="w-2.5 h-2.5 bg-[#010F36] block rounded-full group-hover:bg-white"
+                  ></span>
+                  Lorem ipsum dolor
+                </li>
+                <li
+                  class="flex items-center gap-4 text-[#010F36] text-[20px] font-normal leading-[100%] tracking-normal group-hover:text-white"
+                >
+                  <span
+                    class="w-2.5 h-2.5 bg-[#010F36] block rounded-full group-hover:bg-white"
+                  ></span>
+                  Lorem ipsum dolor
+                </li>
+                <li
+                  class="flex items-center gap-4 text-[#010F36] text-[20px] font-normal leading-[100%] tracking-normal group-hover:text-white"
+                >
+                  <span
+                    class="w-2.5 h-2.5 bg-[#010F36] block rounded-full group-hover:bg-white"
+                  ></span>
+                  Lorem ipsum dolor
+                </li>
+                <li
+                  class="flex items-center gap-4 text-[#010F36] text-[20px] font-normal leading-[100%] tracking-normal group-hover:text-white"
+                >
+                  <span
+                    class="w-2.5 h-2.5 bg-[#010F36] block rounded-full group-hover:bg-white"
+                  ></span>
+                  Lorem ipsum dolor
+                </li>
+                <li
+                  class="flex items-center gap-4 text-[#010F36] text-[20px] font-normal leading-[100%] tracking-normal group-hover:text-white"
+                >
+                  <span
+                    class="w-2.5 h-2.5 bg-[#010F36] block rounded-full group-hover:bg-white"
+                  ></span>
+                  Lorem ipsum dolor
+                </li>
+              </ul>
+              <button
+                class="border border-[#FF8C00] py-6 px-[60px] rounded-[10px] font-semibold text-[20px] leading-[100%] tracking-normal text-[#FF8C00] cursor-pointer w-full hover:bg-[#FF8C00] hover:text-white duration-200"
+              >
+                Get Started
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="team"
+        class="px-3 md:px-[120px] relative py-5 md:py-16 bg-[#FF8C004D]"
+      >
+        <img
+          src="../assets/images/VectorIOrange.png"
+          class="w-full absolute left-1/2 top-[61%] hidden md:block -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none"
+          alt="VectorIOrange"
+        />
+        <img
+          src="../assets/images/VectorBlue.png"
+          class="w-full absolute left-1/2 top-[62%] hidden md:block -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none"
+          alt="VectorBlue"
+        />
+        <div>
+          <div
+            class="flex flex-col gap-6 max-w-xl md:items-start justify-center"
+          >
+            <div
+              class="flex items-center justify-center md:justify-start gap-4"
+            >
+              <img
+                src="../assets/images/command.png"
+                class="w-8 h-8"
+                alt="command"
+              />
+              <h3
+                class="font-medium capitalize text-[28px] leading-[100%] tracking-normal text-[#010F36]"
+              >
+                Our Team
+              </h3>
+            </div>
+            <h2
+              class="text-[#64748B] font-semibold text-[36px] leading-[100%] tracking-normal text-center"
+            >
+              Meet Our Team
+            </h2>
+            <p
+              class="text-[24px] leading-[100%] tracking-normal text-[#64748B] text-center md:text-start"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam...
+            </p>
+          </div>
+          <div
+            class="teams grid grid-cols-1 mb-10 mt-16 md:mt-32 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+          >
+            <div
+              class="team z-20 bg-white rounded-[20px] h-fit p-3 hover:-translate-y-2 md:hover:-translate-y-16 duration-200"
+            >
+              <div class="p-7 lg:p-10">
+                <div
+                  class="p-1 rounded-full bg-linear-to-b from-[#FFFFFF] to-[#FF8C00] w-fit mx-auto"
+                >
+                  <img
+                    src="../assets/images/user.jpg"
+                    class="w-[153px] h-[153px] rounded-full p-3 bg-white"
+                    alt="profile-pic"
+                  />
+                </div>
+              </div>
+              <div
+                class="border border-[#FF8C00] rounded-[20px] bg-white p-4 w-full flex items-center justify-between"
+              >
+                <div class="flex flex-col gap-2">
+                  <h4
+                    class="text-[#010F36] font-semibold text-[20px] leading-[100%] tracking-normal capitalize"
+                  >
+                    ahmed
+                  </h4>
+                  <span
+                    class="leading-[100%] tracking-normal capitalize text-[#64748B] font-medium text-[16px]"
+                    >Team Manerar</span
+                  >
+                </div>
+                <button
+                  class="bg-[#FF8C00] text-white h-8 w-8 rounded-full cursor-pointer hover:bg-black hover:translate-x-2 duration-200"
+                >
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </button>
+              </div>
+            </div>
+            <div
+              class="team bg-white rounded-[20px] h-fit p-3 hover:-translate-y-2 lg:hover:translate-y-0 duration-200 lg:-translate-y-16"
+            >
+              <div class="p-7 lg:p-10">
+                <div
+                  class="p-1 rounded-full bg-linear-to-b from-[#FFFFFF] to-[#FF8C00] w-fit mx-auto"
+                >
+                  <img
+                    src="../assets/images/user.jpg"
+                    class="w-[153px] h-[153px] rounded-full p-3 bg-white"
+                    alt="profile-pic"
+                  />
+                </div>
+              </div>
+              <div
+                class="border border-[#FF8C00] rounded-[20px] bg-white p-4 w-full flex items-center justify-between"
+              >
+                <div class="flex flex-col gap-2">
+                  <h4
+                    class="text-[#010F36] font-semibold text-[20px] leading-[100%] tracking-normal capitalize"
+                  >
+                    ahmed
+                  </h4>
+                  <span
+                    class="leading-[100%] tracking-normal capitalize text-[#64748B] font-medium text-[16px]"
+                    >Team Manerar</span
+                  >
+                </div>
+                <button
+                  class="bg-[#FF8C00] text-white h-8 w-8 rounded-full cursor-pointer hover:bg-black hover:translate-x-2 duration-200"
+                >
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </button>
+              </div>
+            </div>
+            <div
+              class="team z-20 bg-white rounded-[20px] h-fit p-3 hover:-translate-y-2 md:hover:-translate-y-16 duration-200"
+            >
+              <div class="p-7 lg:p-10">
+                <div
+                  class="p-1 rounded-full bg-linear-to-b from-[#FFFFFF] to-[#FF8C00] w-fit mx-auto"
+                >
+                  <img
+                    src="../assets/images/user.jpg"
+                    class="w-[153px] h-[153px] rounded-full p-3 bg-white"
+                    alt="profile-pic"
+                  />
+                </div>
+              </div>
+              <div
+                class="border border-[#FF8C00] rounded-[20px] bg-white p-4 w-full flex items-center justify-between"
+              >
+                <div class="flex flex-col gap-2">
+                  <h4
+                    class="text-[#010F36] font-semibold text-[20px] leading-[100%] tracking-normal capitalize"
+                  >
+                    ahmed
+                  </h4>
+                  <span
+                    class="leading-[100%] tracking-normal capitalize text-[#64748B] font-medium text-[16px]"
+                    >Team Manerar</span
+                  >
+                </div>
+                <button
+                  class="bg-[#FF8C00] text-white h-8 w-8 rounded-full cursor-pointer hover:bg-black hover:translate-x-2 duration-200"
+                >
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </button>
+              </div>
+            </div>
+            <div
+              class="team z-20 bg-white rounded-[20px] h-fit p-3 hover:-translate-y-2 lg:hover:translate-y-0 duration-200 lg:-translate-y-16"
+            >
+              <div class="p-7 lg:p-10">
+                <div
+                  class="p-1 rounded-full bg-linear-to-b from-[#FFFFFF] to-[#FF8C00] w-fit mx-auto"
+                >
+                  <img
+                    src="../assets/images/user.jpg"
+                    class="w-[153px] h-[153px] rounded-full p-3 bg-white"
+                    alt="profile-pic"
+                  />
+                </div>
+              </div>
+              <div
+                class="border border-[#FF8C00] rounded-[20px] bg-white p-4 w-full flex items-center justify-between"
+              >
+                <div class="flex flex-col gap-2">
+                  <h4
+                    class="text-[#010F36] font-semibold text-[20px] leading-[100%] tracking-normal capitalize"
+                  >
+                    ahmed
+                  </h4>
+                  <span
+                    class="leading-[100%] tracking-normal capitalize text-[#64748B] font-medium text-[16px]"
+                    >Team Manerar</span
+                  >
+                </div>
+                <button
+                  class="bg-[#FF8C00] text-white h-8 w-8 rounded-full cursor-pointer hover:bg-black hover:translate-x-2 duration-200"
+                >
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="work" class="px-3 md:px-[120px] relative py-5 md:py-16">
+        <div>
+          <div class="flex flex-col gap-6">
+            <div class="flex items-center gap-4 justify-center">
+              <img
+                src="../assets/images/command.png"
+                class="w-8 h-8"
+                alt="command"
+              />
+              <h3
+                class="font-medium capitalize text-[28px] leading-[100%] tracking-normal text-[#010F36]"
+              >
+                How We Work
+              </h3>
+            </div>
+            <h2
+              class="text-[#64748B] font-semibold text-[36px] leading-[100%] tracking-normal text-center"
+            >
+              Our Proven Work Process
+            </h2>
+          </div>
+          <div
+            class="works grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 my-7 md:mb-10 md:mt-24"
+          >
+            <div
+              class="work flex flex-col gap-4 justify-center items-center relative"
+            >
+              <i
+                class="fa-solid fa-arrow-right-long hidden! md:block! absolute -right-6 top-9 text-2xl"
+              ></i>
+              <div
+                class="bg-[#FF8C00] h-[100px] w-[100px] rounded-full flex items-center justify-center relative"
+              >
+                <img
+                  src="../assets/images/idea.png"
+                  class="w-[43.75px] h-[53.75px] object-contain"
+                  alt="idea"
+                />
+                <span
+                  class="absolute top-5 -right-3 h-[30px] w-[30px] border border-[#FF8C00] rounded-full flex items-center justify-center bg-white"
+                  >1</span
+                >
+              </div>
+              <h5
+                class="text-[#010F36] font-semibold text-[24px] leading-[100%] tracking-normal"
+              >
+                idea
+              </h5>
+              <p
+                class="text-[#64748B] font-medium text-center leading-[100%] tracking-normal"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              </p>
+            </div>
+            <div
+              class="work flex flex-col gap-4 justify-center items-center relative"
+            >
+              <i
+                class="fa-solid fa-arrow-right-long hidden! md:block! absolute -right-6 top-9 text-2xl"
+              ></i>
+              <div
+                class="bg-[#FF8C00] h-[100px] w-[100px] rounded-full flex items-center justify-center relative"
+              >
+                <img
+                  src="../assets/images/analysis.png"
+                  class="w-[43.75px] h-[53.75px] object-contain"
+                  alt="analysis"
+                />
+                <span
+                  class="absolute top-5 -right-3 h-[30px] w-[30px] border border-[#FF8C00] rounded-full flex items-center justify-center bg-white"
+                  >2</span
+                >
+              </div>
+              <h5
+                class="text-[#010F36] font-semibold text-[24px] leading-[100%] tracking-normal"
+              >
+                analysis
+              </h5>
+              <p
+                class="text-[#64748B] font-medium text-center leading-[100%] tracking-normal"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              </p>
+            </div>
+            <div
+              class="work flex flex-col gap-4 justify-center items-center relative"
+            >
+              <i
+                class="fa-solid fa-arrow-right-long hidden! md:block! absolute -right-6 top-9 text-2xl"
+              ></i>
+              <div
+                class="bg-[#FF8C00] h-[100px] w-[100px] rounded-full flex items-center justify-center relative"
+              >
+                <img
+                  src="../assets/images/design.png"
+                  class="w-[43.75px] h-[53.75px] object-contain"
+                  alt="design"
+                />
+                <span
+                  class="absolute top-5 -right-3 h-[30px] w-[30px] border border-[#FF8C00] rounded-full flex items-center justify-center bg-white"
+                  >3</span
+                >
+              </div>
+              <h5
+                class="text-[#010F36] font-semibold text-[24px] leading-[100%] tracking-normal"
+              >
+                design
+              </h5>
+              <p
+                class="text-[#64748B] font-medium text-center leading-[100%] tracking-normal"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              </p>
+            </div>
+            <div
+              class="work flex flex-col gap-4 justify-center items-center relative"
+            >
+              <i
+                class="fa-solid fa-arrow-right-long hidden! md:block! absolute -right-6 top-9 text-2xl"
+              ></i>
+              <div
+                class="bg-[#FF8C00] h-[100px] w-[100px] rounded-full flex items-center justify-center relative"
+              >
+                <img
+                  src="../assets/images/ai-setting.png"
+                  class="w-[43.75px] h-[53.75px] object-contain"
+                  alt="ai-setting"
+                />
+                <span
+                  class="absolute top-5 -right-3 h-[30px] w-[30px] border border-[#FF8C00] rounded-full flex items-center justify-center bg-white"
+                  >4</span
+                >
+              </div>
+              <h5
+                class="text-[#010F36] font-semibold text-[24px] leading-[100%] tracking-normal"
+              >
+                development
+              </h5>
+              <p
+                class="text-[#64748B] font-medium text-center leading-[100%] tracking-normal"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              </p>
+            </div>
+            <div
+              class="work flex flex-col gap-4 justify-center items-center relative"
+            >
+              <i
+                class="fa-solid fa-arrow-right-long hidden! md:block! absolute -right-6 top-9 text-2xl"
+              ></i>
+              <div
+                class="bg-[#FF8C00] h-[100px] w-[100px] rounded-full flex items-center justify-center relative"
+              >
+                <img
+                  src="../assets/images/test.png"
+                  class="w-[43.75px] h-[53.75px] object-contain"
+                  alt="ai-test"
+                />
+                <span
+                  class="absolute top-5 -right-3 h-[30px] w-[30px] border border-[#FF8C00] rounded-full flex items-center justify-center bg-white"
+                  >5</span
+                >
+              </div>
+              <h5
+                class="text-[#010F36] font-semibold text-[24px] leading-[100%] tracking-normal"
+              >
+                test
+              </h5>
+              <p
+                class="text-[#64748B] font-medium text-center leading-[100%] tracking-normal"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              </p>
+            </div>
+            <div
+              class="work flex flex-col gap-4 justify-center items-center relative"
+            >
+              <div
+                class="bg-[#FF8C00] h-[100px] w-[100px] rounded-full flex items-center justify-center relative"
+              >
+                <img
+                  src="../assets/images/ai-mail-01.png"
+                  class="w-[43.75px] h-[53.75px] object-contain"
+                  alt="ai-mail"
+                />
+                <span
+                  class="absolute top-5 -right-3 h-[30px] w-[30px] border border-[#FF8C00] rounded-full flex items-center justify-center bg-white"
+                  >6</span
+                >
+              </div>
+              <h5
+                class="text-[#010F36] font-semibold text-[24px] leading-[100%] tracking-normal"
+              >
+                delivery
+              </h5>
+              <p
+                class="text-[#64748B] font-medium text-center leading-[100%] tracking-normal"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="testimonial"
+        class="px-3 md:px-[120px] relative py-5 md:py-20 bg-[#FF8C001A]"
+      >
+        <img
+          src="../assets/images/dots.png"
+          alt="dots"
+          class="absolute -top-[60px] -z-10"
+        />
+        <div>
+          <div class="flex flex-col gap-6">
+            <div class="flex items-center gap-4 justify-center">
+              <img
+                src="../assets/images/command.png"
+                class="w-8 h-8"
+                alt="command"
+              />
+              <h3
+                class="font-medium capitalize text-[28px] leading-[100%] tracking-normal text-[#010F36]"
+              >
+                Testimonial
+              </h3>
+            </div>
+            <h2
+              class="text-[#64748B] font-semibold text-[36px] leading-[100%] tracking-normal text-center"
+            >
+              what Our clients Say About Us
+            </h2>
+          </div>
+          <div class="testimonials">
+            <div class="testimonial mt-20">
+              <div
+                class="flex items-start justify-center gap-4 md:gap-8"
+                id="users"
+              >
+                <img
+                  src="../assets/images/user1.jpg"
+                  alt="profile-pic"
+                  data-name="Sara"
+                  data-role="UI/UX Designer"
+                  data-text="Sara Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam..."
+                  class="user w-16 h-16 rounded-full cursor-pointer"
+                />
+
+                <img
+                  src="../assets/images/user.jpg"
+                  data-name="Ahmad"
+                  alt="profile-pic"
+                  data-role="Team Manerar"
+                  data-text="Ahmad Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua. Ut enim ad minim veniam..."
+                  class="user w-20 h-20 rounded-full cursor-pointer border-4 border-[#FF8C00]"
+                />
+
+                <img
+                  src="../assets/images/user3.jpg"
+                  data-name="Lena"
+                  alt="profile-pic"
+                  data-role="Frontend Developer"
+                  data-text="Lena Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam..."
+                  class="user w-16 h-16 rounded-full cursor-pointer"
+                />
+              </div>
+              <div
+                class="flex flex-col items-center justify-center gap-1.5 mt-4"
+              >
+                <h5
+                  id="name"
+                  class="text-[#010F36] mt-3 text-center font-semibold text-[20px]"
+                >
+                  Ahmad
+                </h5>
+                <span
+                  id="role"
+                  class="capitalize text-[#64748B] text-center font-medium"
+                >
+                  Team Manerar
+                </span>
+
+                <div class="rating flex items-center gap-px">
+                  <i class="fa-solid fa-star text-[#FACC15] w-5 h-[19px]"></i>
+                  <i class="fa-solid fa-star text-[#FACC15] w-5 h-[19px]"></i>
+                  <i class="fa-solid fa-star text-[#FACC15] w-5 h-[19px]"></i>
+                  <i class="fa-solid fa-star text-[#FACC15] w-5 h-[19px]"></i>
+                  <i class="fa-solid fa-star text-[#FACC15] w-5 h-[19px]"></i>
+                </div>
+              </div>
+              <div class="details max-w-[834px] mx-auto my-5 mt-8 relative">
+                <img
+                  src="../assets/images/Group 79.png"
+                  class="h-[100px] w-[100px] object-contain absolute left-0 -top-14 pointer-events-none"
+                  alt="Group"
+                />
+                <p
+                  id="text"
+                  class="max-w-[600px] mx-auto text-[#010F36] text-center text-[24px]"
+                >
+                  Ahmad Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua. Ut enim ad minim veniam...
+                </p>
+                <img
+                  src="../assets/images/Group 80.png"
+                  class="h-[100px] w-[100px] object-contain absolute right-5 bottom-0 md:top-10 pointer-events-none"
+                  alt="Group"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer
+      id="footer"
+      class="bg-[#011036] text-white py-5 md:py-20 px-3 md:px-[120px]"
+    >
+      <div
+        class="max-w-7xl mx-auto px-6 flex items-center justify-between flex-wrap gap-6"
+      >
+        <div
+          class="flex items-center justify-center md:justify-start gap-5 md:gap-10 flex-wrap"
+        >
+          <div class="flex items-center gap-2">
+            <img
+              src="../assets/images/Call.png"
+              class="w-6 h-6 object-contain"
+              alt="Call"
+            />
+            <span
+              class="text-[20px] font-medium leading-[100%] tracking-normal text-[#FFFFFF]"
+              >+972 000 000 000</span
+            >
+          </div>
+
+          <div class="flex items-center gap-2">
+            <img
+              src="../assets/images/Message.png"
+              class="w-6 h-6 object-contain"
+              alt="Message"
+            />
+            <span
+              class="text-[20px] font-medium leading-[100%] tracking-normal text-[#FFFFFF]"
+              >example@gmail.com</span
+            >
+          </div>
+        </div>
+
+        <div class="flex items-center mx-auto md:mx-0 gap-5">
+          <a
+            href="#"
+            class="w-[55px] h-[55px] rounded-full text-[#010F36] bg-white flex items-center hover:text-white justify-center hover:bg-white/10 transition shadow-xl"
+          >
+            <i class="fab fa-instagram hover:text-white"></i>
+          </a>
+          <a
+            href="#"
+            class="w-[55px] h-[55px] rounded-full text-[#010F36] bg-white flex items-center hover:text-white justify-center hover:bg-white/10 transition shadow-xl"
+          >
+            <i class="fab fa-facebook-f hover:text-white"></i>
+          </a>
+          <a
+            href="#"
+            class="w-[55px] h-[55px] rounded-full text-[#010F36] bg-white flex items-center hover:text-white justify-center hover:bg-white/10 transition shadow-xl"
+          >
+            <i class="fab fa-twitter hover:text-white"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="max-w-7xl mx-auto pt-[30px] px-6">
+        <div class="border-t border-white/20"></div>
+      </div>
+
+      <div
+        class="max-w-7xl mx-auto px-6 mt-10 flex flex-wrap items-center justify-center gap-6 md:gap-[60px] text-sm"
+      >
+        <a
+          href="#"
+          class="hover:underline font-semibold text-[20px] leading-[100%] tracking-normal"
+          >Home</a
+        >
+        <a
+          href="#"
+          class="hover:underline font-semibold text-[20px] leading-[100%] tracking-normal"
+          >About</a
+        >
+        <a
+          href="#"
+          class="hover:underline font-semibold text-[20px] leading-[100%] tracking-normal"
+          >Mt Skiles</a
+        >
+        <a
+          href="#"
+          class="hover:underline font-semibold text-[20px] leading-[100%] tracking-normal"
+          >Education</a
+        >
+        <a
+          href="#"
+          class="hover:underline font-semibold text-[20px] leading-[100%] tracking-normal"
+          >Testimonial</a
+        >
+      </div>
+
+      <div
+        class="max-w-7xl mx-auto px-6 mt-8 flex items-center justify-center md:justify-between text-[12px] text-[#FFFFFF] flex-wrap gap-4"
+      >
+        <p class="leading-[120%]">Copyright © 2010 2021 Ofspace</p>
+
+        <div class="flex gap-4">
+          <a href="#" class="hover:underline">Privacy Policy</a>
+          <a href="#" class="hover:underline">Website Terms</a>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="../js/main.js"></script>
+  </body>
+</html>
