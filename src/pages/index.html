@@ -1546,6 +1546,149 @@
           </div>
         </div>
       </section>
+      <section id="quote" class="px-3 md:px-[120px] relative py-5 md:py-16">
+        <div>
+          <div class="flex flex-col gap-6">
+            <div class="flex items-center gap-4 justify-center">
+              <img
+                src="../assets/images/command.png"
+                class="w-8 h-8"
+                alt="command"
+              />
+              <h3
+                class="font-medium capitalize text-[28px] leading-[100%] tracking-normal text-[#010F36]"
+              >
+                Request a Quote
+              </h3>
+            </div>
+            <h2
+              class="text-[#64748B] font-semibold text-[36px] leading-[100%] tracking-normal text-center"
+            >
+              Fill Out the Form to Get Started
+            </h2>
+          </div>
+          <div
+            class="bg-[#FFFFFF] shadow-lg p-5 md:p-[78px] max-w-[1200px] rounded-[20px] md:mt-[40px]"
+          >
+            <form class="w-full space-y-6 ">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                  <label
+                    class="block text-[20px] text-[#000000] capitalize font-semibold mb-4"
+                    >Full Name</label
+                  >
+                  <input
+                    type="text"
+                    placeholder="enter your name"
+                    class="w-full border border-[#64748B80] rounded-lg px-4 py-2 focus:ring-2 focus:ring-orange-400 focus:outline-none placeholder:text-[#64748B80]"
+                  />
+                </div>
+
+                <div>
+                  <label
+                    class="block text-[20px] text-[#000000] capitalize font-semibold mb-4"
+                    >Plan Title</label
+                  >
+                  <div class="relative">
+                    <select
+                      class="appearance-none cursor-pointer w-full border border-[#010F36] rounded-lg px-4 py-2 focus:ring-2 focus:ring-orange-400 focus:outline-none text-[#010F36]"
+                    >
+                      <option>All In One</option>
+                      <option>Basic</option>
+                      <option>Premium</option></select
+                    ><span
+                      class="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-[#010F36]"
+                    >
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </span>
+                  </div>
+                </div>
+
+                <div>
+                  <label
+                    class="block text-[20px] text-[#000000] capitalize font-semibold mb-4"
+                    >Email</label
+                  >
+                  <input
+                    type="email"
+                    placeholder="example@gmail.com"
+                    class="w-full border border-[#64748B80] rounded-lg px-4 py-2 focus:ring-2 focus:ring-orange-400 focus:outline-none placeholder:text-[#64748B80]"
+                  />
+                </div>
+
+                <div>
+                  <label
+                    class="block text-[20px] text-[#000000] capitalize font-semibold mb-4"
+                    >Package Name</label
+                  >
+                  <div class="relative">
+                    <select
+                      class="appearance-none cursor-pointer w-full border border-[#010F36] rounded-lg px-4 py-2 focus:ring-2 focus:ring-orange-400 focus:outline-none text-[#010F36]"
+                    >
+                      <option>Web Development</option>
+                      <option>Mobile App</option>
+                      <option>UI/UX Design</option></select
+                    ><span
+                      class="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-[#010F36]"
+                    >
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </span>
+                  </div>
+                </div>
+
+                <div>
+                  <label
+                    class="block text-[20px] text-[#000000] capitalize font-semibold mb-4"
+                    >Phone Number</label
+                  >
+                  <input
+                    type="text"
+                    placeholder="+972 000000000"
+                    class="w-full border border-[#64748B80] rounded-lg px-4 py-2 focus:ring-2 focus:ring-orange-400 focus:outline-none placeholder:text-[#64748B80]"
+                  />
+                </div>
+
+                <div>
+                  <label
+                    class="block text-[20px] text-[#000000] capitalize font-semibold mb-4"
+                    >Service Name</label
+                  >
+                  <div class="relative">
+                    <select
+                      class="appearance-none cursor-pointer w-full border border-[#010F36] rounded-lg px-4 py-2 focus:ring-2 focus:ring-orange-400 focus:outline-none text-[#010F36]"
+                    >
+                      <option>Front End Development</option>
+                      <option>Back End Development</option>
+                      <option>Full Stack Development</option></select
+                    ><span
+                      class="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-[#010F36]"
+                    >
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <label
+                  class="block text-[20px] text-[#000000] capitalize font-semibold mb-4"
+                  >Description</label
+                >
+                <textarea
+                  rows="8"
+                  class="w-full border border-[#64748B80] rounded-lg px-4 py-3 focus:ring-2 focus:ring-orange-400 focus:outline-none"
+                ></textarea>
+              </div>
+
+              <button
+                class="py-6 px-[60px] bg-[#FF8C00] capitalize rounded-[10px] text-white cursor-pointer font-semibold text-[20px] leading-[100%] tracking-[0%] hover:bg-[#FF8C00]/20 hover:text-[#FF8C00] duration-300 max-w-[320px] mx-auto block"
+              >
+                Request Quote
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
@@ -1556,9 +1699,7 @@
       <div
         class="max-w-7xl mx-auto px-6 flex items-center justify-between flex-wrap gap-6"
       >
-        <div
-          class="flex items-center justify-center md:justify-start gap-5 md:gap-10 flex-wrap"
-        >
+        <div class="flex items-start mx-auto md:mx-0 flex-col gap-3 flex-wrap">
           <div class="flex items-center gap-2">
             <img
               src="../assets/images/Call.png"
@@ -1583,7 +1724,13 @@
             >
           </div>
         </div>
-
+        <div class="mx-auto md:mx-0">
+          <img
+            src="../assets/images/logoFooter.png"
+            class="w-[184px] h-[102px]"
+            alt="logo"
+          />
+        </div>
         <div class="flex items-center mx-auto md:mx-0 gap-5">
           <a
             href="#"
