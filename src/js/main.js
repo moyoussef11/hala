@@ -10,6 +10,7 @@ const users = document.querySelectorAll('.user');
 const nameEl = document.getElementById('name');
 const roleEl = document.getElementById('role');
 const textEl = document.getElementById('text');
+let currentIndex = 1;
 
 menuToggle.addEventListener('click', () => {
   mobileMenu.classList.toggle('hidden');
@@ -43,12 +44,28 @@ dots.forEach((dot, i) => {
   };
 });
 
-users.forEach((user) => {
+function activateUser(index) {
+  users.forEach((u) => u.classList.remove('border-4', 'border-[#FF8C00]'));
+  const user = users[index];
+  user.classList.add('border-4', 'border-[#FF8C00]');
+  nameEl.textContent = user.dataset.name;
+  roleEl.textContent = user.dataset.role;
+  textEl.textContent = user.dataset.text;
+}
+
+let sliderInterval = setInterval(() => {
+  currentIndex = (currentIndex + 1) % users.length;
+  activateUser(currentIndex);
+}, 2000);
+
+users.forEach((user, index) => {
   user.addEventListener('click', () => {
-    users.forEach((u) => u.classList.remove('border-4', 'border-[#FF8C00]'));
-    user.classList.add('border-4', 'border-[#FF8C00]');
-    nameEl.textContent = user.dataset.name;
-    roleEl.textContent = user.dataset.role;
-    textEl.textContent = user.dataset.text;
+    activateUser(index);
+    currentIndex = index;
+    clearInterval(sliderInterval);
+    sliderInterval = setInterval(() => {
+      currentIndex = (currentIndex + 1) % users.length;
+      activateUser(currentIndex);
+    }, 3000);
   });
 });

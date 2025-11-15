@@ -1,6 +1,7 @@
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.from('.hero-bg', {
+  scale: 1.1,
   opacity: 0,
   duration: 1.5,
   ease: 'power2.out',
@@ -79,6 +80,28 @@ aboutTl.from(
   },
   '-=0.4'
 );
+const counters = document.querySelectorAll('.counter');
+counters.forEach((counter) => {
+  let target = +counter.getAttribute('data-target');
+
+  gsap.fromTo(
+    counter,
+    { innerText: 0 },
+    {
+      innerText: target,
+      duration: 2,
+      ease: 'power1.out',
+      scrollTrigger: {
+        trigger: counter,
+        start: 'top 90%',
+      },
+      snap: { innerText: 1 },
+      onUpdate: function () {
+        counter.innerText = `+${Math.floor(counter.innerText)}`;
+      },
+    }
+  );
+});
 // services section
 let servicesTl = gsap.timeline({
   scrollTrigger: {
