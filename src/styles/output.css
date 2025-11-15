@@ -924,8 +924,20 @@
   .underline {
     text-decoration-line: underline;
   }
+  .shadow-2xl {
+    --tw-shadow: 0 25px 50px -12px var(--tw-shadow-color, rgb(0 0 0 / 0.25));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .shadow-2xs {
+    --tw-shadow: 0 1px var(--tw-shadow-color, rgb(0 0 0 / 0.05));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
   .shadow-\[0_4px_50px_-8px_rgba\(0\,0\,0\,0\.1\)\] {
     --tw-shadow: 0 4px 50px -8px var(--tw-shadow-color, rgba(0,0,0,0.1));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .shadow-\[100px\] {
+    --tw-shadow: 100px;
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
   .shadow-lg {
@@ -1191,6 +1203,11 @@
   .md\:my-32 {
     @media (width >= 48rem) {
       margin-block: calc(var(--spacing) * 32);
+    }
+  }
+  .md\:mt-10 {
+    @media (width >= 48rem) {
+      margin-top: calc(var(--spacing) * 10);
     }
   }
   .md\:mt-24 {
