@@ -94,7 +94,7 @@
       <!-- mobile responsive menu bar -->
       <div
         id="mobile-menu"
-        class="flex-col items-center absolute left-0 bg-white z-20 w-full top-20 py-1 md:hidden hidden"
+        class="flex-col items-center absolute left-0 bg-white z-50 w-full top-20 py-1 md:hidden hidden"
       >
         <nav class="md:px-5 lg:px-10">
           <ul class="flex items-center flex-col gap-4">
@@ -163,25 +163,23 @@
             class="overlay bg-[#010F364D] absolute inset-0 h-[745px] left-10 md:left-[70px] top-[-17px] rounded-[30px]"
           ></div>
           <div
-            class="content relative mx-auto text-center flex flex-col items-center gap-[60px]"
+            class="content relative mx-auto text-center flex flex-col items-center md:gap-[60px]"
           >
             <h1
-              class="hero-title capitalize font-bold text-[48px] text-center leading-[100%] tracking-[0%] text-[#FFFFFF]"
+              class="hero-title capitalize font-bold text-[19px] sm:text-[48px] text-center leading-[100%] tracking-[0%] text-[#FFFFFF]"
             >
               From Vision to <span class="text-[#FF8C00]">Code</span> , We Build
               What Matters
             </h1>
-            <div
-              class="hero-logos logos flex flex-col md:flex-row items-center gap-6"
-            >
+            <div class="hero-logos logos flex flex-row items-center gap-6">
               <img
                 src="./assets/images/hala.png"
-                class="h-[147px] w-[250px] sm:w-[430px]"
+                class="h-[100px] w-[150px] object-contain sm:w-[430px]"
                 alt="logo"
               />
               <img
                 src="./assets/images/team.png"
-                class="h-[147px] w-[250px] sm:w-[430px]"
+                class="h-[150px] w-[150px] object-contain sm:w-[430px]"
                 alt="logo"
               />
             </div>
@@ -202,15 +200,17 @@
       </section>
       <img
         src="./assets/images/arrowDown.png"
-        class="absolute right-5 md:right-[220px]"
+        class="absolute right-5 md:right-[220px] h-20 md:h-fit"
         alt="arrowDown"
       />
       <section id="about" class="px-3 md:px-[120px] py-24">
-        <div class="flex items-center gap-1 md:gap-6 flex-col md:flex-row">
-          <div class="about-img md:h-[633px] w-full md:w-1/2 shrink-0">
+        <div class="flex items-center gap-1 md:gap-6 md:flex-row">
+          <div
+            class="about-img h-[150px] sm:h-[300px] md:h-[633px] w-1/2 shrink-0"
+          >
             <img src="./assets/images/about.png" alt="about_pic" />
           </div>
-          <div class="info flex flex-col gap-5 md:gap-10 w-full md:w-1/2">
+          <div class="info flex flex-col gap-5 md:gap-10 w-1/2">
             <div class="flex items-center gap-4">
               <img
                 src="./assets/images/command.png"
@@ -218,56 +218,62 @@
                 alt="command"
               />
               <h3
-                class="about-title font-medium capitalize text-[28px] leading-[100%] tracking-normal text-[#010F36]"
+                class="about-title font-medium capitalize md:text-[28px] leading-[100%] tracking-normal text-[#010F36]"
               >
                 About Us
               </h3>
             </div>
             <h5
-              class="about-heading text-[48px] font-semibold leading-[100%] tracking-normal text-[#010F36]"
+              class="about-heading md:text-[48px] font-semibold leading-[100%] tracking-normal text-[#010F36]"
             >
               Transforming Idea <br />
               Into
               <span class="text-[#FF8C00]">Digital Reality</span>
             </h5>
             <p
-              class="about-text text-[#64748B] text-[24px] font-normal leading-[100%] tracking-normal"
+              class="about-text text-[#64748B] text-sm sm:text-[16px] md:text-[24px] font-normal leading-[100%] tracking-normal"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam...
             </p>
-            <div class="about-img cards flex items-center gap-3 md:gap-6">
+            <div class="about-img cards flex items-center gap-2 md:gap-6">
               <div
-                class="card bg-[#FF8C004D] w-[180px] h-[120px] text-[#FF8C00] rounded-[20px] flex items-center justify-center gap-2 flex-col hover:bg-[#FF8C00] hover:text-white duration-200"
+                class="card bg-[#FF8C004D] w-20 h-[50px] sm:w-[110px] sm:h-20 mx-auto md:w-[180px] md:h-[120px] text-[#FF8C00] rounded-[20px] flex items-center justify-center gap-2 flex-col hover:bg-[#FF8C00] hover:text-white duration-200"
               >
                 <span
-                  class="font-bold text-[28px] text-center leading-[100%] tracking-normal"
+                  class="font-bold text-sm sm:text-[16px] md:text-[28px] text-center leading-[100%] tracking-normal"
                   >+ 10</span
                 >
-                <p class="text-sm font-semibold leading-[100%] tracking-normal">
+                <p
+                  class="text-[8px] text-center md:text-sm font-semibold leading-[100%] tracking-normal"
+                >
                   Team Member
                 </p>
               </div>
               <div
-                class="card bg-[#FF8C00] w-[180px] h-[120px] text-white rounded-[20px] flex items-center justify-center gap-2 flex-col hover:bg-[#FF8C004D] hover:text-[#FF8C00] duration-200"
+                class="card bg-[#FF8C00] w-20 h-[50px] sm:w-[110px] sm:h-20 mx-auto md:w-[180px] md:h-[120px] text-white rounded-[20px] flex items-center justify-center gap-2 flex-col hover:bg-[#FF8C004D] hover:text-[#FF8C00] duration-200"
               >
                 <span
-                  class="font-bold text-[28px] text-center leading-[100%] tracking-normal"
+                  class="font-bold text-sm sm:text-[16px] md:text-[28px] text-center leading-[100%] tracking-normal"
                   >+ 100</span
                 >
-                <p class="text-sm font-semibold leading-[100%] tracking-normal">
+                <p
+                  class="text-[8px] text-sm font-semibold leading-[100%] tracking-normal"
+                >
                   Happy clients
                 </p>
               </div>
               <div
-                class="card bg-[#FF8C00] w-[180px] h-[120px] text-white rounded-[20px] flex items-center justify-center gap-2 flex-col hover:bg-[#FF8C004D] hover:text-[#FF8C00] duration-200"
+                class="card bg-[#FF8C00] w-20 h-[50px] sm:w-[110px] sm:h-20 mx-auto md:w-[180px] md:h-[120px] text-white rounded-[20px] flex items-center justify-center gap-2 flex-col hover:bg-[#FF8C004D] hover:text-[#FF8C00] duration-200"
               >
                 <span
-                  class="font-bold text-[28px] text-center leading-[100%] tracking-normal"
+                  class="font-bold text-sm sm:text-[16px] md:text-[28px] text-center leading-[100%] tracking-normal"
                   >+ 20</span
                 >
-                <p class="text-sm font-semibold leading-[100%] tracking-normal">
+                <p
+                  class="text-[8px] md:text-sm font-semibold leading-[100%] tracking-normal"
+                >
                   Projects
                 </p>
               </div>
